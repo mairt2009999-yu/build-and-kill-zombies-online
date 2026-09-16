@@ -1,0 +1,29 @@
+{
+  // Cloudflare Workers Static Assets + a tiny fetch handler.
+  // The handler only 301s http:// → https:// so GSC does not split
+  // impressions across two schemes. Page bodies still come from ./out.
+  // 部署:npx wrangler deploy
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "build-and-kill-zombies",
+  "compatibility_date": "2026-07-01",
+  "main": "worker.ts",
+  // 自定义域名。zone 必须已在同一个 Cloudflare 账号下,wrangler deploy 会自动
+  // 建好 DNS 记录。只绑裸域:站点是纯静态资源,两个都绑会变成同一份内容的
+  // 重复收录。
+  "routes": [
+    { "pattern": "build-and-kill-zombies.online", "custom_domain": true },
+    { "pattern": "www.build-and-kill-zombies.online", "custom_domain": true }
+  ],
+  "assets": {
+    "directory": "./out",
+    "binding": "ASSETS",
+    // Worker must run first: otherwise static HTML is served without the
+    // http→https 301, and stale 404s can stick on new routes.
+    "run_worker_first": true,
+    // 缺页时返回 out/404.html(由 app/not-found.tsx 生成)。
+    // /404/ 这条资产 URL 由 worker.ts 301 到首页,避免 GSC 当成 noindex 页。
+    "not_found_handling": "404-page",
+    // /page -> /page/ 重定向,与 next.config.ts 的 trailingSlash 一致,避免重复收录
+    "html_handling": "auto-trailing-slash"
+  }
+}

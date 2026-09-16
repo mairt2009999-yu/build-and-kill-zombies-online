@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* 主题色统一从 CSS 变量取值;强调色由 layout.tsx 从 content/site.ts 注入 */
+:root {
+  --surface: #0b0c0e;
+  --panel: #17181c;
+  --line: #26272c;
+  --ink: #f4f4f5;
+  --ink-dim: #a1a1aa;
+  --accent: #facc15;
+}
+
+@theme inline {
+  --color-surface: var(--surface);
+  --color-panel: var(--panel);
+  --color-line: var(--line);
+  --color-ink: var(--ink);
+  --color-ink-dim: var(--ink-dim);
+  --color-accent: var(--accent);
+}
+
+body {
+  background-color: var(--surface);
+  color: var(--ink);
+}
