@@ -64,7 +64,7 @@ export const homeFacts: { value: string; label: string; note: string }[] = [
   { value: "105011592530400", label: "Roblox place", note: "Official page anchored" },
   { value: "10741654282", label: "Universe", note: "Resolved from Roblox API" },
   { value: "Roll → Build → Drive", label: "Core loop", note: "Confirmed in footage" },
-  { value: "5 verified", label: "Codes live", note: "Cross-checked 2026-09-16" },
+  { value: "5 verified", label: "Codes live", note: "Cross-checked 2026-09-29 (ZEUS, IAMPRO in; HACKER, 1x1x1x1 expired)" },
 ];
 
 // ⭐ 首页截图画廊(官方截图 + 游戏内取证截图,放 public/screenshots/ 下)

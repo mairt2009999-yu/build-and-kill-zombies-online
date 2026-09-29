@@ -176,13 +176,14 @@ export const guidesContent: {
           heading: "Every currency in your wallet",
           paragraphs: [
             "The bottom-left corner shows two numbers, and the game adds a third during live events. Knowing what each one buys prevents the classic new-player mistake of hoarding the wrong one.",
+            "Hacker Tokens were the Hacker Event currency. HACKER and 1x1x1x1 are expired, and that badge is no longer awarding (past-day count 0 on 2026-09-29). Lightning Tokens are a different currency and are not expanded here — see /zeus-event/.",
           ],
           table: {
             headers: ["Currency", "Earned from", "Spent on"],
             rows: [
               ["Cash", "Distance + kills, codes", "Rolls' shop purchases, skill nodes, Missing Parts gaps"],
               ["Coins (round, green)", "Session rewards", "Completing missing-part sets"],
-              ["Hacker Tokens", "HACKER and 1x1x1x1 codes, event play", "Hacker Event rewards"],
+              ["Hacker Tokens", "Expired codes HACKER and 1x1x1x1", "Hacker Event rewards; badge no longer awarding"],
             ],
           },
         },
@@ -432,14 +433,14 @@ export const guidesContent: {
           heading: "Preparing for King 1x1x1x1",
           paragraphs: [
             "The King fight runs on the shared boss clock; when it fires, a banner reads '1x1x1x1 is coming! Press ATTACK to join the battle.' — you opt in with ATTACK, so stay near your car and watch the countdown if you want the kill.",
-            "Build for the fight specifically: damage-heavy supports, armour enough to survive the arena, and fuel for the approach. The defeat badge's award count (far rarer than the join badges) tells you this is the game's hardest milestone — treat it as a build check, not a lottery.",
+            "Build for the fight specifically: damage-heavy supports, armour enough to survive the arena, and fuel for the approach. The defeat badge is still being awarded (1,244,251 total and 63,997 in the past day on 2026-09-29) and is still far rarer than Welcome!. The boss was not removed. Treat the fight as a build check, not a lottery.",
           ],
         },
         {
           heading: "Living on the event calendar",
           paragraphs: [
-            "The game runs layered events — September 2026 carried the Hacker Event with Hacker Tokens as currency, and the world board advertises scheduled sessions like admin-abuse nights for sign-up.",
-            "Event rewards are time-boxed, so the endgame habit is simple: check the world board and the community channels weekly, bank event currencies while the window is open, and keep doing normal runs in between.",
+            "The game runs layered events. September 2026 carried the Hacker Event with Hacker Tokens as currency, but that badge is no longer awarding (past-day count 0 on 2026-09-29). The King 1x1x1x1 badge is still awarding. The world board also advertises scheduled sessions like admin-abuse nights for sign-up.",
+            "Do not treat the Hacker Event as open. Zeus and Lightning Tokens are not expanded in this walkthrough — see /zeus-event/. Keep doing normal runs between whatever the world board is actually listing.",
           ],
         },
         {
@@ -671,7 +672,7 @@ export const guidesContent: {
           heading: "The five-figure stretch",
           paragraphs: [
             "Past roughly 10K cash decisions get expensive — the next meaningful upgrade usually costs thousands. By then runs should be reaching deep checkpoints regularly, and the question becomes whether distance or kills is the weaker earner for your build.",
-            "That is also the point where event currencies matter: Hacker Tokens from codes and events add alongside your cash income without competing for it.",
+            "Hacker Tokens are not a current-code payout. HACKER and 1x1x1x1 are expired, and that badge is no longer awarding. Lightning Tokens are a different currency — see /zeus-event/, not a price list here.",
           ],
         },
       ],
@@ -727,8 +728,8 @@ export const guidesContent: {
         {
           heading: "Boss nights and events",
           paragraphs: [
-            "The world board runs sign-up events (an ADMIN ABUSE session was advertised with a sign-up prompt in September 2026), and event currencies like Hacker Tokens only drop during their window. Play during the window if the rewards matter to you — they are time-boxed.",
-            "For the King 1x1x1x1 fight, the defeat badge's rarity says it plainly: this is the hardest checked milestone, best attempted with a finished build and a support loadout that leans damage.",
+            "The world board runs sign-up events (an ADMIN ABUSE session was advertised with a sign-up prompt in September 2026). Hacker Tokens are not in a current award period: the Hacker Event badge's past-day count was 0 on 2026-09-29. Lightning Tokens are a different topic — see /zeus-event/ instead of a write-up here.",
+            "For the King 1x1x1x1 fight, the defeat badge is still being awarded and remains the hardest checked milestone by award count. Attempt it with a finished build and a support loadout that leans damage. The boss was not removed.",
           ],
         },
         {
@@ -760,8 +761,8 @@ export const guidesContent: {
       title: "Badges and Milestones",
       metaDescription:
         "All three Build and Kill Zombies badges with award counts, what each one takes, and how badge numbers track the game's growth.",
-      summary: "Every badge, its award count, and what it takes.",
-      updatedOn: "2026-09-16",
+      summary: "Every badge, its 2026-09-29 award count, and what is still awarding.",
+      updatedOn: "2026-09-29",
       heroImage: {
         src: "/screenshots/gameplay-boss.png",
         alt: "Boss countdown visible in the world",
@@ -771,22 +772,22 @@ export const guidesContent: {
         {
           heading: "The badge set",
           paragraphs: [
-            "The game ships three badges, and each one maps to a milestone: joining, the September 2026 Hacker Event, and defeating the King 1x1x1x1 boss.",
+            "The official badge list on 2026-09-29 still has three badges: joining, the Hacker Event, and defeating the King 1x1x1x1 boss. There is no Zeus badge. Welcome! is still awarding. The Hacker Event badge is no longer awarding. The King badge is still awarding — that does not mean the boss was deleted. Its description still says Hacker Event Great Boss.",
           ],
           table: {
-            headers: ["Badge", "Type", "Award count"],
+            headers: ["Badge", "Type", "Awarded", "Past day"],
             rows: [
-              ["Welcome!", "Join the game", "1,385,636 (still climbing fast)"],
-              ["Hacker Event 2026", "Event participation", "1,401,774"],
-              ["You defeated the King 1x1x1x1", "Boss defeat", "121,060"],
+              ["Welcome!", "Join the game", "9,957,627", "483,167 (still awarding)"],
+              ["Hacker Event 2026", "You attended the Limited Hacker Event 2026", "7,706,374", "0 (no longer awarding)"],
+              ["You defeated the King 1x1x1x1", "Boss defeat", "1,244,251", "63,997 (still awarding)"],
             ],
           },
         },
         {
           heading: "Reading the numbers",
           paragraphs: [
-            "Badge award counts are the cleanest public growth signal the game has. In mid-September the Welcome badge was adding roughly 397,000 awards per day — that is the breakout curve the search trend data mirrors.",
-            "The gap between the Welcome badge and the King defeat badge is also the clearest difficulty statement in the game: roughly one in eleven accounts that have joined have banked the boss kill.",
+            "These counts are the Roblox badge API snapshot for 2026-09-29, not a guess from older notes. The same payload reported winRatePercentage 0.94 for Welcome!, 0 for Hacker Event 2026, and 0.124 for the King badge. This page reports those rates as published and does not turn them into a separate difficulty formula.",
+            "Welcome! added 483,167 awards in that past day, so it is still awarding. The King badge added 63,997 and is still awarding. The Hacker Event badge added 0 and is no longer awarding.",
           ],
         },
         {
@@ -797,22 +798,23 @@ export const guidesContent: {
           ],
         },
         {
-          heading: "Event badges and their windows",
+          heading: "Hacker Event badge is no longer awarding",
           paragraphs: [
-            "The Hacker Event badge was earned by over 1.4 million accounts during its September window, making it the broadest event run so far. Event badges are usually time-boxed — if a new event appears on the world board, treat the badge as earning it while it lasts.",
-            "Watch the game's community channels for event announcements; new-code drops and events have been landing in the same update notes.",
+            "Hacker Event 2026 stands at 7,706,374 awards. Its past-day count on 2026-09-29 was 0, so the badge is no longer being awarded. The description still reads \"You attended the Limited Hacker Event 2026\".",
+            "Zeus and Lightning Tokens are not expanded here. See /zeus-event/. The official badge list has no Zeus badge.",
           ],
         },
       ],
       faq: [
         {
           question: "How many badges are there?",
-          answer: "Three as of September 2026: Welcome!, Hacker Event 2026, and You defeated the King 1x1x1x1.",
+          answer:
+            "Three on the 2026-09-29 badge API: Welcome!, Hacker Event 2026, and You defeated the King 1x1x1x1. No Zeus badge. Welcome! and the King badge are still awarding. The Hacker Event badge is not.",
         },
         {
           question: "Which badge is hardest?",
           answer:
-            "The King 1x1x1x1 defeat — its award count is roughly a ninth of the Welcome badge's, marking it as the toughest milestone tracked so far.",
+            "The King 1x1x1x1 defeat — 1,244,251 awards against Welcome! at 9,957,627 on 2026-09-29. It is still awarding (63,997 in the past day). The Hacker Event badge is larger and is no longer awarding (past day 0).",
         },
       ],
     },
@@ -1005,7 +1007,7 @@ export const guidesContent: {
         {
           heading: "Event tokens and limited rewards",
           paragraphs: [
-            "The Hacker Event ran through September 2026 with its own currency, Hacker Tokens, handed out by two of the current codes (HACKER gives 50, 1x1x1x1 gives 150). Event currencies only matter during their window — if a new event appears on the world board, treat its tokens as a use-it-while-it-lasts resource.",
+            "The Hacker Event badge is no longer being awarded (past-day count 0 on 2026-09-29). HACKER and 1x1x1x1, which used to grant Hacker Tokens, are expired — they are not current codes. Lightning Tokens are a different currency and are not expanded here; see /zeus-event/. The code list itself is on /codes/.",
             "Scheduled events like the admin-abuse nights also carry rewards; signing up from the world board costs nothing and the game confirms with a message.",
           ],
         },
@@ -1038,7 +1040,7 @@ export const guidesContent: {
         {
           question: "What are the best free rewards for a new account?",
           answer:
-            "The five current codes (cash and parts), the free chest, and any live event tokens. Together they cover the first hour of progress without a single run.",
+            "The five codes marked active on /codes/, plus the free chest. HACKER and 1x1x1x1 are expired. Lightning Tokens are not listed on this page — see /zeus-event/.",
         },
       ],
     },

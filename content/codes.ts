@@ -6,12 +6,26 @@ export const codesContent: CodesContent = {
   metaDescription:
     "Working Build and Kill Zombies codes with verified rewards, redeem steps, and a freshness policy that keeps fake copied codes out of the active list.",
   intro:
-    "Every code below was confirmed against multiple independent sources before it went live. Rewards are listed exactly as the game hands them out. If a code stops working, it moves to the expired list instead of being quietly deleted.",
-  lastChecked: "2026-09-16",
+    "Active codes are listed only after more than one independent write-up agrees. The 2026-09-29 check used GamesRadar (last updated 28 September 2026), Game Code Guides (last checked September 28, 2026), and Pro Game Guides (September 26, 2026). This site did not retest them in-game. HACKER and 1x1x1x1 are expired. The Hacker Event 2026 badge had a past-day award count of 0 that day, so it is no longer being awarded. ZEUS pays Lightning Tokens, a different currency from Hacker Tokens. Expired codes move to the expired list instead of being deleted.",
+  lastChecked: "2026-09-29",
   emptyStateTitle: "No verified public codes",
   emptyStateBody:
     "No official public code was found in the game description or checked sources at the last review. New codes usually appear around updates and social milestones.",
   codes: [
+    {
+      code: "ZEUS",
+      reward: "50 Lightning Tokens",
+      status: "active",
+      addedOn: "2026-09-28",
+      note: "GamesRadar and Pro Game Guides both state 50 Lightning Tokens. Game Code Guides marks ZEUS as NEW. Lightning Tokens are not Hacker Tokens. Not retested in-game on this site.",
+    },
+    {
+      code: "IAMPRO",
+      reward: "5,000 Cash",
+      status: "active",
+      addedOn: "2026-09-29",
+      note: "Listed here on the 2026-09-29 editorial check. GamesRadar and Game Code Guides say it requires a best distance of 1,000 studs. Not retested in-game on this site.",
+    },
     {
       code: "COMMUNITY",
       reward: "1,000 Cash + 1 Small Engine + 1 Small Tank",
@@ -34,16 +48,16 @@ export const codesContent: CodesContent = {
     {
       code: "HACKER",
       reward: "50 Hacker Tokens",
-      status: "active",
+      status: "expired",
       addedOn: "2026-09-12",
-      note: "Hacker Tokens are the Hacker Event currency.",
+      note: "Was 50 Hacker Tokens. GamesRadar, Game Code Guides, and Pro Game Guides now list it expired. Not retested in-game on this site.",
     },
     {
       code: "1x1x1x1",
       reward: "150 Hacker Tokens",
-      status: "active",
+      status: "expired",
       addedOn: "2026-09-12",
-      note: "Named after the King 1x1x1x1 boss.",
+      note: "Was 150 Hacker Tokens. Those sources now list it expired. Not the King badge, which is still being awarded. Not retested in-game on this site.",
     },
   ],
   howToRedeem: [
@@ -55,6 +69,7 @@ export const codesContent: CodesContent = {
   ],
   freshnessPolicy: [
     "A code is only listed as active after it appears in multiple independent sources or is confirmed from in-game footage.",
+    "The 2026-09-29 pass used GamesRadar (last updated 28 September 2026), Game Code Guides (last checked September 28, 2026), and Pro Game Guides (September 26, 2026). This site did not retest those codes in-game.",
     "This page is re-checked whenever the game updates or a new code batch drops; the last-checked date is shown at the top.",
     "Expired codes move to the expired list instead of being deleted, so you can tell what was already tried.",
     "Codes posted only by a single anonymous account are never listed as active.",
@@ -73,7 +88,7 @@ export const codesContent: CodesContent = {
     {
       question: "What are Hacker Tokens for?",
       answer:
-        "Hacker Tokens are the currency tied to the Hacker Event that ran through September 2026. Spending details come from the in-game event area; this page lists the token rewards exactly as the codes give them.",
+        "Hacker Tokens were the Hacker Event currency. The Hacker Event 2026 badge is no longer being awarded (past day 0 on 2026-09-29). The codes HACKER and 1x1x1x1 are expired. The ZEUS reward is Lightning Tokens, which is a different currency. This site did not retest that distinction in-game.",
     },
     {
       question: "The code worked but I got nothing — what now?",

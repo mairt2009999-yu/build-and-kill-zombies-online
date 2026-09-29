@@ -464,8 +464,8 @@ export const wikiContent: {
       title: "Bosses & Events",
       metaDescription:
         "Boss encounters and limited-time events in Build and Kill Zombies, including the King 1x1x1x1 fight and the Hacker Event.",
-      summary: "Boss fights, event seasons, and the badges tied to them.",
-      updatedOn: "2026-09-16",
+      summary: "Boss fights and badges. The King badge is still awarding. Zeus is not confirmed here.",
+      updatedOn: "2026-09-29",
       heroImage: {
         src: "/screenshots/gameplay-boss.webp",
         alt: "Boss countdown timer in the game world",
@@ -483,15 +483,16 @@ export const wikiContent: {
         {
           heading: "King 1x1x1x1",
           paragraphs: [
-            "The named boss in the current event cycle is King 1x1x1x1, a Roblox-lore crossover character. Defeating it awards the badge \"You defeated the King 1x1x1x1\", which by its award count is the hardest of the game's badges — only a small fraction of players who have it have been tracked finishing the fight.",
-            "A code on the codes page (1x1x1x1) hands out 150 Hacker Tokens, which ties the boss fight to the Hacker Event economy.",
+            "The named boss observed in footage is King 1x1x1x1. Defeating it awards the badge \"You defeated the King 1x1x1x1\". On 2026-09-29 that badge was still being awarded: 1,244,251 total, and 63,997 in the past day. Its description still says Hacker Event Great Boss. That wording is not a deletion notice — this page does not say the boss was removed.",
+            "The code 1x1x1x1 used to grant 150 Hacker Tokens. It is expired, not a current code. The boss badge and that code are separate. See /codes/.",
           ],
         },
         {
           heading: "The Hacker Event",
           paragraphs: [
-            "September 2026 ran a Hacker Event layered over normal play. The related badge has been awarded to well over a million accounts, making it the widest-reaching event so far, and its currency is Hacker Tokens — earned from codes now, and from event play during the window.",
-            "Event rewards and the token shop layout have not been fully documented yet; what is confirmed is the currency, the badge, and the code grants.",
+            "September 2026 ran a Hacker Event. On 2026-09-29 the Hacker Event 2026 badge stood at 7,706,374 awards and a past-day count of 0, so it is no longer being awarded. The badge description reads \"You attended the Limited Hacker Event 2026\".",
+            "Hacker Tokens were that event's currency. HACKER (50) and 1x1x1x1 (150) are expired. They are not current codes. What the tokens bought is still not observed here.",
+            "Whether a Zeus boss is confirmed, and what Lightning Tokens are, is on /zeus-event/. This page does not copy Lightning Token shop prices.",
           ],
         },
         {
@@ -504,8 +505,8 @@ export const wikiContent: {
         {
           heading: "Badges as milestones",
           paragraphs: [
-            "The game's badge set doubles as a progress map: a Welcome badge for first join (over a million awards, still growing by hundreds of thousands a day), the Hacker Event badge, and the King 1x1x1x1 defeat.",
-            "Badge counts are also the best public signal of the game's growth curve — the Welcome badge added roughly 397,000 awards in a single day in mid-September, which is why this site re-checks its numbers weekly.",
+            "The official badge list on 2026-09-29 was still three names, and none of them is a Zeus badge. Welcome! had 9,957,627 awards and 483,167 in the past day, and it is still awarding. Hacker Event 2026 is no longer awarding (past day 0). You defeated the King 1x1x1x1 is still awarding.",
+            "Badge counts are a public growth signal, which is why this site re-checks them instead of keeping the mid-September Welcome pace.",
           ],
         },
       ],
@@ -518,12 +519,64 @@ export const wikiContent: {
         {
           question: "How hard is the King 1x1x1x1 fight?",
           answer:
-            "The defeat badge is the rarest of the three — its award count is a small fraction of the Welcome badge, making it the game's toughest checked milestone so far.",
+            "The defeat badge is still the rarest of the three by award count — 1,244,251 against Welcome! at 9,957,627 on 2026-09-29 — and it is still being awarded. The boss was not removed.",
         },
         {
           question: "What are Hacker Tokens for?",
           answer:
-            "They are the September 2026 Hacker Event currency. Two codes (HACKER and 1x1x1x1) grant them directly; in-event spending details are still being documented.",
+            "They were the Hacker Event currency. HACKER and 1x1x1x1 are expired, not current codes, and the Hacker Event badge is no longer being awarded (past day 0 on 2026-09-29). Lightning Tokens are a different currency; see /zeus-event/. Shop prices are not listed here.",
+        },
+      ],
+    },
+
+    // ============================================================
+    {
+      slug: "zeus-event",
+      eyebrow: "Events",
+      title: "Zeus and Lightning Tokens",
+      metaDescription:
+        "Whether a Zeus boss is confirmed in Build and Kill Zombies, what Lightning Tokens are, and where the ZEUS code is recorded. No official Zeus badge.",
+      summary:
+        "A Zeus boss is not confirmed here. There is no official Zeus badge. Lightning Tokens are a separate currency from Hacker Tokens.",
+      updatedOn: "2026-09-29",
+      sections: [
+        {
+          heading: "Whether a Zeus boss is confirmed",
+          paragraphs: [
+            "No. This site has not observed a Zeus boss, and it does not treat one as confirmed. The official badge list read on 2026-09-29 has three badges only: Welcome!, Hacker Event 2026, and You defeated the King 1x1x1x1. There is no Zeus badge, so this page does not claim an official Zeus badge.",
+            "The King badge is separate. Its description still says Hacker Event Great Boss, and it was still being awarded on 2026-09-29 (1,244,251 total, 63,997 in the past day). That is not a note that the King was deleted, and it is not evidence of a Zeus fight.",
+            "Outside write-ups disagree with each other. allthings.how gives boss hit points, a day count, and shop prices; YouTube titles name weapons and wheels. Those stats are not observed here, so they are left unwritten.",
+          ],
+        },
+        {
+          heading: "What Lightning Tokens are",
+          paragraphs: [
+            "Lightning Tokens are a currency name, not Hacker Tokens and not cash. The Hacker Event 2026 badge is no longer being awarded (past-day count 0 on 2026-09-29). That closed badge does not describe Lightning Tokens.",
+            "This site has not seen a Lightning Token balance or a Lightning Token shop in gameplay footage. Shop prices are not listed here.",
+          ],
+        },
+        {
+          heading: "The ZEUS code",
+          paragraphs: [
+            "The code ZEUS is recorded on /codes/ as 50 Lightning Tokens. Redeem steps stay on that page. This page does not add a reward table beyond that line, and this site did not retest the code in-game.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          question: "Is there a Zeus boss?",
+          answer:
+            "Not confirmed here. The 2026-09-29 badge list has no Zeus badge. Boss stats published elsewhere were not observed in footage for this site and are not repeated.",
+        },
+        {
+          question: "Are Lightning Tokens the same as Hacker Tokens?",
+          answer:
+            "No. Lightning Tokens are a different currency. Hacker Token codes HACKER and 1x1x1x1 are expired, and the Hacker Event badge is no longer being awarded.",
+        },
+        {
+          question: "Where do I redeem ZEUS?",
+          answer:
+            "On /codes/. The code ZEUS is recorded there as 50 Lightning Tokens. This site did not retest that payout in-game.",
         },
       ],
     },
@@ -610,9 +663,9 @@ export const wikiContent: {
       eyebrow: "Money",
       title: "Cash, Tokens & Boosters",
       metaDescription:
-        "Every currency in Build and Kill Zombies: cash sources, Hacker Tokens, global boosters, and the official game passes.",
-      summary: "Cash sources, Hacker Tokens, boosters, and the official passes.",
-      updatedOn: "2026-09-16",
+        "Cash, expired Hacker Token codes, boosters, and the official game passes in Build and Kill Zombies. Lightning Tokens are covered on the Zeus page.",
+      summary: "Cash sources, expired Hacker Token codes, boosters, and the official passes.",
+      updatedOn: "2026-09-29",
       heroImage: {
         src: "/screenshots/gameplay-shop.webp",
         alt: "Exclusive Shop with cash packs and codes",
@@ -629,8 +682,9 @@ export const wikiContent: {
         {
           heading: "Hacker Tokens",
           paragraphs: [
-            "Hacker Tokens are the limited event currency attached to the September 2026 Hacker Event. Two of the five current codes grant them (HACKER: 50; 1x1x1x1: 150).",
-            "Because they are event-scoped, their long-term value is the event's shop contents; this page tracks the token balance sources and will expand once the event spending options are documented.",
+            "Hacker Tokens were the September 2026 Hacker Event currency. HACKER and 1x1x1x1 used to grant 50 and 150 of them. Both codes are expired, not current. On 2026-09-29 the Hacker Event badge's past-day awards were 0, so it is no longer being awarded. What the tokens bought is still not observed here.",
+            "The King 1x1x1x1 badge is separate from the expired 1x1x1x1 code. That badge was still awarding on 2026-09-29 (past day 63,997). This page does not say the boss was removed.",
+            "Lightning Tokens are a different currency. Whether a Zeus boss is confirmed is on /zeus-event/. No Lightning Token shop prices are copied here.",
           ],
         },
         {
@@ -672,7 +726,7 @@ export const wikiContent: {
         {
           question: "Are Hacker Tokens worth collecting?",
           answer:
-            "They are the event currency, and two current codes grant them for free. If you play during the event window, redeeming both codes is a no-risk way to bank them.",
+            "The two codes that granted them are expired, and the Hacker Event badge is no longer being awarded (past day 0 on 2026-09-29). This page has no observed shop price for them. Lightning Tokens are a separate topic on /zeus-event/.",
         },
         {
           question: "Were game passes ever discounted?",

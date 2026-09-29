@@ -14,6 +14,12 @@ export const updatesContent: {
     "Every entry notes what changed in the game and which pages on this site were re-checked as a result. Newest first.",
   entries: [
     {
+      date: "2026-09-29",
+      title: "Codes recheck, badge correction, Zeus page",
+      body: "Codes were re-checked against GamesRadar (last updated 28 September 2026), Game Code Guides (last checked September 28, 2026), and Pro Game Guides (September 26, 2026). This site did not retest them in-game. Active set: ZEUS, IAMPRO, COMMUNITY, CashDrop, MOREFRIENDS. HACKER and 1x1x1x1 moved to expired. Badge API the same day: Hacker Event 2026 is no longer awarding (past day 0); Welcome! and You defeated the King 1x1x1x1 are still awarding; no Zeus badge. New wiki page /zeus-event/. Games API snapshot refreshed — name still Build and Kill Zombies, updated 2026-09-28T19:16:01.5589984Z, visits 33,190,940, favorites 877,053. Playing was a point sample of 35,629. No patch notes are inferred from that timestamp.",
+      tags: ["codes", "wiki"],
+    },
+    {
       date: "2026-09-16",
       title: "Google Search Console and GA4 connected",
       body: "The domain is verified in Search Console via DNS and the sitemap has been submitted. GA4 is live with stream G-FHZLV97L80, including custom events: planner_goal (upgrade planner use), odds_target (roll odds calculator use), and walkthrough_nav (walkthrough prev/next clicks) alongside GA4's enhanced-measurement events.",

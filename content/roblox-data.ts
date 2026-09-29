@@ -11,18 +11,18 @@ import type { RobloxData } from "@/content/types";
 // ============================================================
 
 export const robloxData: RobloxData = {
-  fetchedOn: "2026-09-16",
+  fetchedOn: "2026-09-29",
 
   official: {
     placeId: "105011592530400",
     universeId: "10741654282",
     developer: "Zombie Car Crusher",
     created: "2026-08-19",
-    lastUpdated: "2026-09-14",
+    lastUpdated: "2026-09-28T19:16:01.5589984Z",
     genre: "Car-Build Survival",
     maxPlayers: 5,
-    visits: 3572124,
-    favorites: 127195,
+    visits: 33190940,
+    favorites: 877053,
     description:
       "Welcome to Build and Kill Zombies! Build your car! Add crazy weapons & defenses! Crush waves of zombies! Earn cash and upgrade your build! How far can YOUR car survive?",
   },
