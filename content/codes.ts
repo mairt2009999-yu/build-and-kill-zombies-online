@@ -6,7 +6,7 @@ export const codesContent: CodesContent = {
   metaDescription:
     "Working Build and Kill Zombies codes with verified rewards, redeem steps, and a freshness policy that keeps fake copied codes out of the active list.",
   intro:
-    "Active codes are listed only after more than one independent write-up agrees. The 2026-09-29 check used GamesRadar (last updated 28 September 2026), Game Code Guides (last checked September 28, 2026), and Pro Game Guides (September 26, 2026). This site did not retest them in-game. HACKER and 1x1x1x1 are expired. The Hacker Event 2026 badge had a past-day award count of 0 that day, so it is no longer being awarded. ZEUS pays Lightning Tokens, a different currency from Hacker Tokens. Expired codes move to the expired list instead of being deleted.",
+    "Active codes are listed only after more than one independent write-up agrees. The 2026-09-29 check used GamesRadar (last updated 28 September 2026), Game Code Guides (last checked September 28, 2026), and Pro Game Guides (September 26, 2026). This site did not retest them in-game. On 2026-10-11 the public game description was read again. It is still the generic build, weapons, and zombie-wave text, and it names no redeem codes. The active list was not retested and stays that 2026-09-29 list. HACKER and 1x1x1x1 are expired. The Hacker Event 2026 badge had a past-day award count of 0 on both 2026-09-29 and 2026-10-11, so it is no longer being awarded. ZEUS pays Lightning Tokens, a different currency from Hacker Tokens. Expired codes move to the expired list instead of being deleted.",
   lastChecked: "2026-09-29",
   emptyStateTitle: "No verified public codes",
   emptyStateBody:
@@ -70,6 +70,7 @@ export const codesContent: CodesContent = {
   freshnessPolicy: [
     "A code is only listed as active after it appears in multiple independent sources or is confirmed from in-game footage.",
     "The 2026-09-29 pass used GamesRadar (last updated 28 September 2026), Game Code Guides (last checked September 28, 2026), and Pro Game Guides (September 26, 2026). This site did not retest those codes in-game.",
+    "On 2026-10-11 the public description was read again and still names no redeem codes. Video titles about an October Hollow Dungeon code drop were not used as a source. The active list was not retested in-game.",
     "This page is re-checked whenever the game updates or a new code batch drops; the last-checked date is shown at the top.",
     "Expired codes move to the expired list instead of being deleted, so you can tell what was already tried.",
     "Codes posted only by a single anonymous account are never listed as active.",

@@ -463,9 +463,9 @@ export const wikiContent: {
       eyebrow: "Events",
       title: "Bosses & Events",
       metaDescription:
-        "Boss encounters and limited-time events in Build and Kill Zombies, including the King 1x1x1x1 fight and the Hacker Event.",
-      summary: "Boss fights and badges. The King badge is still awarding. Zeus is not confirmed here.",
-      updatedOn: "2026-09-29",
+        "Boss encounters and limited-time events in Build and Kill Zombies, including the King 1x1x1x1 badge status and the Hollow Dungeon event window.",
+      summary: "Boss fights and the official Hollow Dungeon window. The King badge is no longer awarding. Zeus is not confirmed here.",
+      updatedOn: "2026-10-11",
       heroImage: {
         src: "/screenshots/gameplay-boss.webp",
         alt: "Boss countdown timer in the game world",
@@ -483,7 +483,7 @@ export const wikiContent: {
         {
           heading: "King 1x1x1x1",
           paragraphs: [
-            "The named boss observed in footage is King 1x1x1x1. Defeating it awards the badge \"You defeated the King 1x1x1x1\". On 2026-09-29 that badge was still being awarded: 1,244,251 total, and 63,997 in the past day. Its description still says Hacker Event Great Boss. That wording is not a deletion notice — this page does not say the boss was removed.",
+            "The named boss observed in footage is King 1x1x1x1. Defeating it awards the badge \"You defeated the King 1x1x1x1\". On 2026-10-11 that badge stood at 1,807,261 awards and a past-day count of 0, so it is no longer being awarded. Its description still says Hacker Event Great Boss. This page does not say the boss was removed.",
             "The code 1x1x1x1 used to grant 150 Hacker Tokens. It is expired, not a current code. The boss badge and that code are separate. See /codes/.",
           ],
         },
@@ -496,6 +496,14 @@ export const wikiContent: {
           ],
         },
         {
+          heading: "Hollow Dungeon",
+          paragraphs: [
+            "Roblox lists a public event titled HOLLOW DUNGEON EVENT. The window is 2026-10-10 14:00 UTC through 2026-10-17 14:00 UTC. The subtitle is HOW FAR CAN YOU GO? The description is \"The portal has awakened... What waits on the other side?\"",
+            "A second public listing is titled ???. Its subtitle is HOLLOW DUNGEON - PART II. The window is 2026-10-17 14:00 UTC through 2026-10-24 14:00 UTC. The description is \"Power doesn't end in the dungeon...\" Part II had not started on 2026-10-11.",
+            "The 2026-10-11 badge list is still the same three names. There is no Hollow Dungeon badge. This page does not add floors, fragments, rewards, or a boss name from video titles.",
+          ],
+        },
+        {
           heading: "Admin Abuse nights",
           paragraphs: [
             "A scheduled event board in the world advertises an \"ADMIN ABUSE\" session with a sign-up prompt and a countdown (one observed reminder read \"Wed, Sep 16 at 10:00 PM\"). Players sign up from the board and the game confirms with \"Successfully signed up for this event!\".",
@@ -505,7 +513,7 @@ export const wikiContent: {
         {
           heading: "Badges as milestones",
           paragraphs: [
-            "The official badge list on 2026-09-29 was still three names, and none of them is a Zeus badge. Welcome! had 9,957,627 awards and 483,167 in the past day, and it is still awarding. Hacker Event 2026 is no longer awarding (past day 0). You defeated the King 1x1x1x1 is still awarding.",
+            "The official badge list on 2026-10-11 was still three names. None of them is a Zeus badge or a Hollow Dungeon badge. Welcome! had 13,335,088 awards and 215,796 in the past day, and it is still awarding. Hacker Event 2026 is no longer awarding (past day 0, total unchanged at 7,706,374). You defeated the King 1x1x1x1 is no longer awarding (1,807,261 total, past day 0).",
             "Badge counts are a public growth signal, which is why this site re-checks them instead of keeping the mid-September Welcome pace.",
           ],
         },
@@ -519,7 +527,7 @@ export const wikiContent: {
         {
           question: "How hard is the King 1x1x1x1 fight?",
           answer:
-            "The defeat badge is still the rarest of the three by award count — 1,244,251 against Welcome! at 9,957,627 on 2026-09-29 — and it is still being awarded. The boss was not removed.",
+            "By lifetime awards, the defeat badge is still the smallest of the three: 1,807,261 against Welcome! at 13,335,088 on 2026-10-11. Its past-day count is 0, so it is no longer being awarded. This page does not say the boss was removed.",
         },
         {
           question: "What are Hacker Tokens for?",
@@ -538,13 +546,13 @@ export const wikiContent: {
         "Whether a Zeus boss is confirmed in Build and Kill Zombies, what Lightning Tokens are, and where the ZEUS code is recorded. No official Zeus badge.",
       summary:
         "A Zeus boss is not confirmed here. There is no official Zeus badge. Lightning Tokens are a separate currency from Hacker Tokens.",
-      updatedOn: "2026-09-29",
+      updatedOn: "2026-10-11",
       sections: [
         {
           heading: "Whether a Zeus boss is confirmed",
           paragraphs: [
-            "No. This site has not observed a Zeus boss, and it does not treat one as confirmed. The official badge list read on 2026-09-29 has three badges only: Welcome!, Hacker Event 2026, and You defeated the King 1x1x1x1. There is no Zeus badge, so this page does not claim an official Zeus badge.",
-            "The King badge is separate. Its description still says Hacker Event Great Boss, and it was still being awarded on 2026-09-29 (1,244,251 total, 63,997 in the past day). That is not a note that the King was deleted, and it is not evidence of a Zeus fight.",
+            "No. This site has not observed a Zeus boss, and it does not treat one as confirmed. The official badge list on 2026-10-11 still has three badges only: Welcome!, Hacker Event 2026, and You defeated the King 1x1x1x1. There is no Zeus badge and no Hollow Dungeon badge, so this page does not claim an official Zeus badge.",
+            "The King badge is separate. Its description still says Hacker Event Great Boss. On 2026-09-29 it was still being awarded (1,244,251 total, 63,997 in the past day). On 2026-10-11 the past-day count was 0 and the total was 1,807,261, so it is no longer being awarded. That is not a note that the King was deleted, and it is not evidence of a Zeus fight.",
             "Outside write-ups disagree with each other. allthings.how gives boss hit points, a day count, and shop prices; YouTube titles name weapons and wheels. Those stats are not observed here, so they are left unwritten.",
           ],
         },
@@ -566,7 +574,7 @@ export const wikiContent: {
         {
           question: "Is there a Zeus boss?",
           answer:
-            "Not confirmed here. The 2026-09-29 badge list has no Zeus badge. Boss stats published elsewhere were not observed in footage for this site and are not repeated.",
+            "Not confirmed here. The 2026-10-11 badge list has no Zeus badge and no Hollow Dungeon badge. Boss stats published elsewhere were not observed in footage for this site and are not repeated.",
         },
         {
           question: "Are Lightning Tokens the same as Hacker Tokens?",
@@ -665,7 +673,7 @@ export const wikiContent: {
       metaDescription:
         "Cash, expired Hacker Token codes, boosters, and the official game passes in Build and Kill Zombies. Lightning Tokens are covered on the Zeus page.",
       summary: "Cash sources, expired Hacker Token codes, boosters, and the official passes.",
-      updatedOn: "2026-09-29",
+      updatedOn: "2026-10-11",
       heroImage: {
         src: "/screenshots/gameplay-shop.webp",
         alt: "Exclusive Shop with cash packs and codes",
@@ -682,8 +690,8 @@ export const wikiContent: {
         {
           heading: "Hacker Tokens",
           paragraphs: [
-            "Hacker Tokens were the September 2026 Hacker Event currency. HACKER and 1x1x1x1 used to grant 50 and 150 of them. Both codes are expired, not current. On 2026-09-29 the Hacker Event badge's past-day awards were 0, so it is no longer being awarded. What the tokens bought is still not observed here.",
-            "The King 1x1x1x1 badge is separate from the expired 1x1x1x1 code. That badge was still awarding on 2026-09-29 (past day 63,997). This page does not say the boss was removed.",
+            "Hacker Tokens were the September 2026 Hacker Event currency. HACKER and 1x1x1x1 used to grant 50 and 150 of them. Both codes are expired, not current. On 2026-09-29 and again on 2026-10-11 the Hacker Event badge's past-day awards were 0, and the total stayed 7,706,374, so it is no longer being awarded. What the tokens bought is still not observed here.",
+            "The King 1x1x1x1 badge is separate from the expired 1x1x1x1 code. On 2026-10-11 that badge's past-day count was 0 (total 1,807,261), so it is no longer being awarded. This page does not say the boss was removed.",
             "Lightning Tokens are a different currency. Whether a Zeus boss is confirmed is on /zeus-event/. No Lightning Token shop prices are copied here.",
           ],
         },

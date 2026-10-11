@@ -14,6 +14,12 @@ export const updatesContent: {
     "Every entry notes what changed in the game and which pages on this site were re-checked as a result. Newest first.",
   entries: [
     {
+      date: "2026-10-11",
+      title: "API snapshot and Hollow Dungeon window",
+      body: "Games API name is still Build and Kill Zombies. The universe updated stamp moved to 2026-10-10T17:46:42.157Z. Visits 52,209,019, favorites 1,172,140, and a point sample of 24,272 playing. The public description is still the generic build, weapons, and zombie-wave text, with no redeem codes. The active code list was not retested in-game and stays the 2026-09-29 multi-source list. Badge API the same day: three badges, no Zeus badge, and no Hollow Dungeon badge. Welcome! 13,335,088 awards, past day 215,796, still awarding, published win rate 0.547. Hacker Event 2026 is still 7,706,374 with past day 0. You defeated the King 1x1x1x1 is 1,807,261 with past day 0, so it is no longer being awarded. That past-day zero does not say the boss was deleted. Roblox lists HOLLOW DUNGEON EVENT from 2026-10-10 14:00 UTC through 2026-10-17 14:00 UTC, subtitle HOW FAR CAN YOU GO?, description \"The portal has awakened... What waits on the other side?\" A second listing, titled ???, subtitle HOLLOW DUNGEON - PART II, runs 2026-10-17 14:00 UTC through 2026-10-24 14:00 UTC, description \"Power doesn't end in the dungeon...\" This pass does not add dungeon floors, fragments, rewards, or codes from video titles.",
+      tags: ["game-update", "wiki"],
+    },
+    {
       date: "2026-09-29",
       title: "Codes recheck, badge correction, Zeus page",
       body: "Codes were re-checked against GamesRadar (last updated 28 September 2026), Game Code Guides (last checked September 28, 2026), and Pro Game Guides (September 26, 2026). This site did not retest them in-game. Active set: ZEUS, IAMPRO, COMMUNITY, CashDrop, MOREFRIENDS. HACKER and 1x1x1x1 moved to expired. Badge API the same day: Hacker Event 2026 is no longer awarding (past day 0); Welcome! and You defeated the King 1x1x1x1 are still awarding; no Zeus badge. New wiki page /zeus-event/. Games API snapshot refreshed — name still Build and Kill Zombies, updated 2026-09-28T19:16:01.5589984Z, visits 33,190,940, favorites 877,053. Playing was a point sample of 35,629. No patch notes are inferred from that timestamp.",

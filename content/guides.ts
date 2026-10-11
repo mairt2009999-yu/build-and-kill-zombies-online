@@ -433,13 +433,13 @@ export const guidesContent: {
           heading: "Preparing for King 1x1x1x1",
           paragraphs: [
             "The King fight runs on the shared boss clock; when it fires, a banner reads '1x1x1x1 is coming! Press ATTACK to join the battle.' — you opt in with ATTACK, so stay near your car and watch the countdown if you want the kill.",
-            "Build for the fight specifically: damage-heavy supports, armour enough to survive the arena, and fuel for the approach. The defeat badge is still being awarded (1,244,251 total and 63,997 in the past day on 2026-09-29) and is still far rarer than Welcome!. The boss was not removed. Treat the fight as a build check, not a lottery.",
+            "Build for the fight specifically: damage-heavy supports, armour enough to survive the arena, and fuel for the approach. On 2026-10-11 the defeat badge stood at 1,807,261 awards and a past-day count of 0, so it is no longer being awarded. That does not say the boss was deleted. Treat the fight as a build check, not a lottery.",
           ],
         },
         {
           heading: "Living on the event calendar",
           paragraphs: [
-            "The game runs layered events. September 2026 carried the Hacker Event with Hacker Tokens as currency, but that badge is no longer awarding (past-day count 0 on 2026-09-29). The King 1x1x1x1 badge is still awarding. The world board also advertises scheduled sessions like admin-abuse nights for sign-up.",
+            "The game runs layered events. September 2026 carried the Hacker Event with Hacker Tokens as currency, but that badge is no longer awarding (past-day count 0 on 2026-09-29 and again on 2026-10-11). The King 1x1x1x1 badge's past-day count was also 0 on 2026-10-11. Roblox lists a Hollow Dungeon event from 2026-10-10 through 2026-10-17. This walkthrough does not add dungeon floors or rewards. The world board also advertises scheduled sessions like admin-abuse nights for sign-up.",
             "Do not treat the Hacker Event as open. Zeus and Lightning Tokens are not expanded in this walkthrough — see /zeus-event/. Keep doing normal runs between whatever the world board is actually listing.",
           ],
         },
@@ -729,7 +729,7 @@ export const guidesContent: {
           heading: "Boss nights and events",
           paragraphs: [
             "The world board runs sign-up events (an ADMIN ABUSE session was advertised with a sign-up prompt in September 2026). Hacker Tokens are not in a current award period: the Hacker Event badge's past-day count was 0 on 2026-09-29. Lightning Tokens are a different topic — see /zeus-event/ instead of a write-up here.",
-            "For the King 1x1x1x1 fight, the defeat badge is still being awarded and remains the hardest checked milestone by award count. Attempt it with a finished build and a support loadout that leans damage. The boss was not removed.",
+            "For the King 1x1x1x1 fight, the defeat badge's past-day count was 0 on 2026-10-11, so it is no longer being awarded. Its lifetime total is still the smallest of the three badges. This page does not say the boss was removed. Attempt it with a finished build and a support loadout that leans damage only if the fight is actually on the board.",
           ],
         },
         {
@@ -761,8 +761,8 @@ export const guidesContent: {
       title: "Badges and Milestones",
       metaDescription:
         "All three Build and Kill Zombies badges with award counts, what each one takes, and how badge numbers track the game's growth.",
-      summary: "Every badge, its 2026-09-29 award count, and what is still awarding.",
-      updatedOn: "2026-09-29",
+      summary: "Every badge, its 2026-10-11 award count, and what is still awarding.",
+      updatedOn: "2026-10-11",
       heroImage: {
         src: "/screenshots/gameplay-boss.png",
         alt: "Boss countdown visible in the world",
@@ -772,22 +772,22 @@ export const guidesContent: {
         {
           heading: "The badge set",
           paragraphs: [
-            "The official badge list on 2026-09-29 still has three badges: joining, the Hacker Event, and defeating the King 1x1x1x1 boss. There is no Zeus badge. Welcome! is still awarding. The Hacker Event badge is no longer awarding. The King badge is still awarding — that does not mean the boss was deleted. Its description still says Hacker Event Great Boss.",
+            "The official badge list on 2026-10-11 still has three badges: Welcome!, Hacker Event 2026, and You defeated the King 1x1x1x1. There is no Zeus badge and no Hollow Dungeon badge. Welcome! is still awarding. The Hacker Event badge is not. The King badge's past-day count is now 0, so it is no longer being awarded. Its description still says Hacker Event Great Boss. That wording, and the past-day zero, do not say the boss was deleted.",
           ],
           table: {
             headers: ["Badge", "Type", "Awarded", "Past day"],
             rows: [
-              ["Welcome!", "Join the game", "9,957,627", "483,167 (still awarding)"],
+              ["Welcome!", "Join the game", "13,335,088", "215,796 (still awarding)"],
               ["Hacker Event 2026", "You attended the Limited Hacker Event 2026", "7,706,374", "0 (no longer awarding)"],
-              ["You defeated the King 1x1x1x1", "Boss defeat", "1,244,251", "63,997 (still awarding)"],
+              ["You defeated the King 1x1x1x1", "Boss defeat", "1,807,261", "0 (no longer awarding)"],
             ],
           },
         },
         {
           heading: "Reading the numbers",
           paragraphs: [
-            "These counts are the Roblox badge API snapshot for 2026-09-29, not a guess from older notes. The same payload reported winRatePercentage 0.94 for Welcome!, 0 for Hacker Event 2026, and 0.124 for the King badge. This page reports those rates as published and does not turn them into a separate difficulty formula.",
-            "Welcome! added 483,167 awards in that past day, so it is still awarding. The King badge added 63,997 and is still awarding. The Hacker Event badge added 0 and is no longer awarding.",
+            "These counts are the Roblox badge API snapshot for 2026-10-11, not a guess from older notes. The same payload reported winRatePercentage 0.547 for Welcome!, 0 for Hacker Event 2026, and 0 for the King badge. This page reports those rates as published and does not turn them into a separate difficulty formula.",
+            "Welcome! added 215,796 awards in that past day, so it is still awarding. The King badge added 0, so it is no longer awarding. The Hacker Event badge added 0 and its total is unchanged at 7,706,374.",
           ],
         },
         {
@@ -800,7 +800,7 @@ export const guidesContent: {
         {
           heading: "Hacker Event badge is no longer awarding",
           paragraphs: [
-            "Hacker Event 2026 stands at 7,706,374 awards. Its past-day count on 2026-09-29 was 0, so the badge is no longer being awarded. The description still reads \"You attended the Limited Hacker Event 2026\".",
+            "Hacker Event 2026 stands at 7,706,374 awards. Its past-day count on 2026-10-11 was 0, the same total as 2026-09-29, so the badge is no longer being awarded. The description still reads \"You attended the Limited Hacker Event 2026\".",
             "Zeus and Lightning Tokens are not expanded here. See /zeus-event/. The official badge list has no Zeus badge.",
           ],
         },
@@ -809,12 +809,12 @@ export const guidesContent: {
         {
           question: "How many badges are there?",
           answer:
-            "Three on the 2026-09-29 badge API: Welcome!, Hacker Event 2026, and You defeated the King 1x1x1x1. No Zeus badge. Welcome! and the King badge are still awarding. The Hacker Event badge is not.",
+            "Three on the 2026-10-11 badge API: Welcome!, Hacker Event 2026, and You defeated the King 1x1x1x1. No Zeus badge and no Hollow Dungeon badge. Welcome! is still awarding. The Hacker Event badge and the King badge are not.",
         },
         {
           question: "Which badge is hardest?",
           answer:
-            "The King 1x1x1x1 defeat — 1,244,251 awards against Welcome! at 9,957,627 on 2026-09-29. It is still awarding (63,997 in the past day). The Hacker Event badge is larger and is no longer awarding (past day 0).",
+            "By lifetime awards, the King 1x1x1x1 defeat is still the smallest of the three: 1,807,261 against Welcome! at 13,335,088 on 2026-10-11. Its past-day count is 0, so it is no longer being awarded. The Hacker Event badge is larger and is also no longer awarding.",
         },
       ],
     },
